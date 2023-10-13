@@ -8,12 +8,11 @@ body {
 .navbar {
   background-color: #333;
   overflow: hidden;
-  padding: 2rem;
+  padding: 0.5rem;
 }
 
 .navbar a {
   float: left;
-  display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
@@ -42,22 +41,21 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  text-decoration: underline;
-}
-
 .dropdown {
   float: left;
-  overflow: visible;
+  overflow: hidden;
 }
 
-.dropbtn {
-  display: block;
+.dropdown .dropbtn {
+  font-size: inherit;
+  border: none;
+  outline: none;
   color: white;
-  text-align: center;
   padding: 14px 16px;
-  background-color: #333;
+  background-color: inherit;
   text-decoration: none;
+  font-family: inherit;
+  margin: 0;
 }
 
 .dropdown-content {
@@ -65,9 +63,8 @@ a:hover {
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  z-index: 1;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  top: 30%;
+  z-index: 1;
 }
 
 .dropdown-content a {
