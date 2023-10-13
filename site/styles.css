@@ -31,7 +31,6 @@ body {
 
 .navbar .dropdown {
   float: left;
-  overflow: hidden;
 }
 
 .navbar .dropdown .dropdown-content {
