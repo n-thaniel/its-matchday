@@ -67,7 +67,7 @@ a:hover {
   min-width: 160px;
   z-index: 1;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  top: 10%;
+  top: 50%;
 }
 
 .dropdown-content a {
