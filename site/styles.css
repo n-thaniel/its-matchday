@@ -48,7 +48,7 @@ a:hover {
 
 .dropdown {
   float: left;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .dropbtn {
