@@ -21,3 +21,29 @@ a {
   color: hsl(270, 70%, 65%);
   text-decoration: none;
 }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th {
+  background-color: #cfcfcf;
+  text-align: left;
+  padding: 10px;
+  border: 1px solid #c0c0c0;
+}
+
+td {
+  padding: 10px;
+  border: 1px solid #c0c0c0;
+}
+
+tr:nth-child(even) {
+  background-color: #eeeeee;
+}
+
+.table-container {
+  overflow-x: auto;
+}

@@ -1,9 +1,6 @@
-// navbar-component.js
-
 class NavbarComponent extends HTMLElement {
     constructor() {
       super();
-      // Attach a shadow root to the element.
       const shadowRoot = this.attachShadow({ mode: 'open' });
       
       shadowRoot.innerHTML = `
@@ -30,13 +27,12 @@ class NavbarComponent extends HTMLElement {
         
         <div class="navbar">
             <a href="index.html">Home</a>
-            <a href="rights.html">Rights</a>
+            <a href="rights.html">Where to Watch</a>
             <a href="about.html">About</a>
         </div>
       `;
     }
   }
   
-  // Define the new element
   customElements.define('my-navbar', NavbarComponent);
   
